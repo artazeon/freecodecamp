@@ -1,17 +1,15 @@
-// Only change code below this line
-function countdown(n){
-
-  if (n <= 0) {
-    return [];
-  } else {
-    const countArray = countdown(n - 1);
-    countArray.unshift(n);
-    return countArray;
-  }
+function rangeOfNumbers(startNum, endNum) {
   
-}
-console.log(countdown(4));
+  if (startNum > endNum) {
+  return [];
+  }
+    else {
+      const countArray = rangeOfNumbers (startNum, endNum - 1);
+      countArray.push(endNum);
 
-//
-
-// Only change code above this line
+      
+      return countArray;
+      
+    }
+  
+}; rangeOfNumbers (1, 5)
