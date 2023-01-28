@@ -1,7 +1,5 @@
-<html>
-  <body>
-    <!-- Only change code below this line -->
-<script type="module" src="index.js"></script>
-    <!-- Only change code above this line -->
-  </body>
-</html>
+import { lowercaseString, uppercaseString } from './string_functions.js';
+// Only change code above this line
+
+uppercaseString("hello");
+lowercaseString("WORLD!");

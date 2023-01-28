@@ -1,16 +1,7 @@
-const LOCAL_FORECAST = {
-  yesterday: { low: 61, high: 75 },
-  today: { low: 64, high: 77 },
-  tomorrow: { low: 68, high: 80 }
-};
-
+let a = 8, b = 6;
 // Only change code below this line
-  
-const {today: {low: lowToday, high: highToday}} = LOCAL_FORECAST
+
+[b, a] = [a, b];
 
 
-
-//const lowToday = LOCAL_FORECAST.today.low;
-//const highToday = LOCAL_FORECAST.today.high;
-
-// Only change code above this line
+console.log(a, b)
