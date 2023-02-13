@@ -1,0 +1,1 @@
+let yourArray = ['art', 1, true, null, undefined] // Change this line
